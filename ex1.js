@@ -1,1 +1,5 @@
-print "Hello"
+/*
+This is a test comment
+*/
+
+console.log("Hello");
