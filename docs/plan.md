@@ -7,18 +7,15 @@ Learning Plan
   - function declaration, function passing, local scope of functions, recursions
   - arrays, objects : objects are nothing more than JSON objects, akin to hashes in perl
 
-
 2. Learn the basics of [Chrome devtools](http://discover-devtools.codeschool.com/)
 
   - you can actually test the code on interactive console, debug your clientside pages in real-time!
   - chrome''s devtool is probably worth learning for any web developer
 
-
 3. Try out the [ChatBuilder](http://chatbuilder.hackreactor.com/)
 
   - it gives you very good intro to javascript
   - designed to give you hands-on experience with Chrome''s built-in devtools
-
 
 4. Take the [online course](https://www.edx.org/course/mitx/mitx-6-00-1x-introduction-computer-1498#.U0yb03Wx22g)
   
