@@ -8,7 +8,7 @@ Learning Plan
 
 2. Learn the basics of [Chrome devtools](http://discover-devtools.codeschool.com/)
   - you can actually test the code on interactive console, debug your clientside pages in real-time!
-  - chrome''s devtool is probably worth learning for any web developer
+  - chrome devtool is probably worth learning for any web developer
 
 3. Try out the [ChatBuilder](http://chatbuilder.hackreactor.com/)
   - it gives you very good intro to javascript
