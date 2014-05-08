@@ -60,4 +60,13 @@ u.removeChild(u.children[0])
 
 // you need to create a new Element 
 for(i=0; i<5; i++) { l = document.createElement("li"); l.innerHTML = "wake up " + i; u.appendChild(l); }
+
+function (list) {
+  u = document.getElementsByClassName('messages')[0]
+  for(i=0; i<list.length; i++) { 
+    l = document.createElement("li"); 
+    l.innerHTML = list[i]; 
+    u.appendChild(l); 
+  }
+}
 ```
