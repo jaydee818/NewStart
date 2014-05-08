@@ -45,3 +45,8 @@ Chat.fetch(function(x) { out = x })
 
 The challenge is around noticing the arrays that come back, and populate the DOM element 'messages',
 with separate line item per item in the array of messages that come back from `Chat.fetch`.
+
+
+```{js}
+document.getElementsByClassName('messages')[0].children[1].innerHTML = "gay jd"
+```
