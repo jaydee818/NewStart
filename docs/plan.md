@@ -49,4 +49,15 @@ with separate line item per item in the array of messages that come back from `C
 
 ```{js}
 document.getElementsByClassName('messages')[0].children[1].innerHTML = "gay jd"
+
+u = document.getElementsByClassName('messages')[0]
+u.appendChild(document.createElement("li"))
+l = document.createElement("li")
+l.innerHTML = "jd stop making your hair gay"
+u.appendChild(l)
+
+u.removeChild(u.children[0])
+
+// you need to create a new Element 
+for(i=0; i<5; i++) { l = document.createElement("li"); l.innerHTML = "wake up " + i; u.appendChild(l); }
 ```
