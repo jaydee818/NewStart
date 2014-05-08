@@ -48,6 +48,14 @@ with separate line item per item in the array of messages that come back from `C
 
 
 ```{js}
+// The fetch function
+myfetch = function(callbackfunc)
+{
+  var list = ["a", "b", "c", "d"];
+  callbackfunc(list);
+}
+
+// Hacking the display function
 document.getElementsByClassName('messages')[0].children[1].innerHTML = "gay jd"
 
 u = document.getElementsByClassName('messages')[0]
@@ -61,7 +69,7 @@ u.removeChild(u.children[0])
 // you need to create a new Element 
 for(i=0; i<5; i++) { l = document.createElement("li"); l.innerHTML = "wake up " + i; u.appendChild(l); }
 
-function (list) {
+mydisplay = function(list) {
   u = document.getElementsByClassName('messages')[0]
   for(i=0; i<list.length; i++) { 
     l = document.createElement("li"); 
